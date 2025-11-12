@@ -103,6 +103,14 @@ body{
     width: 100%;
 }
 
+.active{
+    color: var(--menu-txt-hover) !important;
+}
+
+.active::after{
+    width: 100% !important;
+}
+
 button{
     border: none;
     border-radius: var(--btn-border-radius);
@@ -285,8 +293,8 @@ button.cv-btn i{
     height: 350px;
     border-radius: 50%;
     border: 5px solid white;
-    background-image: url(../image/akash_profile.jpg);
-    background-position: center;
+    background-image: url(../image/ak_resume.jpg);
+    background-position: 0px -90px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 0 10px #ddd;
@@ -805,7 +813,7 @@ ul.ft-list li a{
         display: block;
     }
 
-    .shoemenu.menu {
+    .showmenu.menu {
         transform: scaleX(1);
     }
 
